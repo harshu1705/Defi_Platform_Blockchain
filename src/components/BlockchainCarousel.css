@@ -1,0 +1,46 @@
+.blockchain-section {
+  display: flex;
+}
+
+.left-section {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.right-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.carousel img {
+  max-width: 100%;
+  border-radius: 5px;
+  animation: fadeIn 1s ease; /* Fade-in animation */
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

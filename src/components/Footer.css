@@ -1,0 +1,112 @@
+* {
+  text-align: center;
+  /* height: 10vh; */
+}
+
+.footer-section {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  padding-bottom: 0px;
+  max-height: 200px;
+  width: 100%;
+  animation: fadeIn 1s ease;
+  margin-top: 0;
+  padding-top: 50px;
+  /* position: fixed; */
+  bottom: 0;
+  /* height: 12rem; */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.footer-logo {
+  margin-top: 10px;
+}
+
+h1 {
+  margin-top: -40px;
+  color: white;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 13px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-links ul li {
+  display: inline;
+  margin-right: 20px;
+  animation: slideIn 2s ease;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  color: #ffd700; /* Change color on hover */
+  transform: scale(1.1); /* Scale effect on hover */
+}
+
+.footer-links ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffd700; /* Line under link color */
+  transition: width 0.3s; /* Smooth width transition on hover */
+}
+
+.footer-links ul li a:hover::after {
+  width: 100%; /* Expand line under link on hover */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.footer-links ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-bottom {
+  /* background-color: #222; */
+  padding: 10px 0;
+  height: 5rem;
+  text-align: center;
+  justify-content: center;
+  border-top: 1px solid #444;
+  box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.1);
+  /* animation: fadeIn 1s ease; Fade-in animation */
+  animation: colorChangeBottomText 5s infinite alternate;
+}
+
+@keyframes colorChangeBottomText {
+  from {
+    color: #fff;
+  }
+  to {
+    color: #ffd700; /* Change color on alternate cycles */
+  }
+}

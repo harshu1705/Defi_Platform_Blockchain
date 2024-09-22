@@ -1,0 +1,238 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-bottom: 1000px;
+  padding: 20px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensure padding is included in width */
+  margin: auto; /* Center the container horizontally */
+}
+
+.signup-title {
+  font-size: 44px; /* Adjust font size as needed */
+  /* margin-bottom: 1px; */
+  padding: 10px;
+}
+
+.input-field {
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.signup-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border: 5px black solid;
+  padding: 50px;
+  background-color: #e462ff;
+  border-radius: 25px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  border-top: none;
+  border-left: none;
+}
+
+#signup-container #GAuth {
+  margin-top: 0.8vw;
+  background-color: rgb(15, 158, 15);
+  font: Arial 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+#Email-input {
+  padding: 3px;
+  margin-bottom: 0px;
+}
+#Email-input:focus {
+  outline: none;
+  border: 1px solid #007bff;
+}
+
+#Name-input {
+  padding: 3px;
+}
+#Name-input:focus {
+  outline: none;
+  border: 1px solid #007bff;
+}
+
+#GAuth:hover {
+  background-color: #037c07;
+}
+
+#login-container {
+  background-color: rgba(153, 153, 153, 0.8);
+
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+
+  height: 60vh;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 0px 8px 8px 0px;
+}
+
+#login-title {
+  font-family: Orbitron, monospace;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 16px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.input-field {
+  margin-bottom: 8px;
+}
+
+.login-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#password-input {
+  padding: 7px;
+}
+
+#password-input:focus {
+  outline: none;
+  border: 1px solid #007bff;
+}
+
+#username-input {
+  padding: 7px;
+}
+
+#username-input:focus {
+  outline: none;
+}
+
+#login-container label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#login-container button {
+  margin-top: 16px;
+}
+
+#login-container button:hover {
+  background-color: #037c07;
+}
+
+#login-container #GAuth {
+  margin-top: 2vw;
+  background-color: rgb(15, 158, 15);
+  font: Arial 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+.signupandlogin {
+  background-image: url('../../public/Engine.jpg');
+  background-size: cover;
+
+  transform: translateY(-75px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.signuptext {
+  font-size: 30px;
+  font-weight: 700;
+
+  font-family: Michroma, monospace;
+  color: white;
+  text-align: center;
+
+  background-color: rgb(0, 0, 0, 0.5);
+
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px;
+
+  border-radius: 0px 8px 8px 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.logintext {
+  font-size: 30px;
+  font-weight: 700;
+
+  font-family: Michroma, monospace;
+  color: white;
+  text-align: center;
+
+  background-color: rgb(0, 0, 0, 0.5);
+
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px;
+
+  border-radius: 8px 0px 0px 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
